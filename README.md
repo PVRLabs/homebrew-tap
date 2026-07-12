@@ -1,4 +1,4 @@
-# Pvrlabs Homebrew Tap
+# PVRLabs Homebrew Tap
 Homebrew formulas for PVR Labs projects.
 
 ## Install
