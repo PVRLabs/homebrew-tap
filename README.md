@@ -10,7 +10,7 @@ This shared tap is the Homebrew home for current and future PVRLabs command-line
 brew install pvrlabs/tap/badger
 ```
 
-StatLite will use this tap after its first public release:
+Install StatLite:
 
 ```bash
 brew install pvrlabs/tap/statlite
