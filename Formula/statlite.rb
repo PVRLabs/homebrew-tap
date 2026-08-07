@@ -1,30 +1,29 @@
 class Statlite < Formula
   desc "Tiny self-hosted metrics dashboard for small servers"
   homepage "https://github.com/PVRLabs/statlite"
-  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/PVRLabs/statlite/releases/download/v#{version}/statlite_#{version}_darwin_arm64.tar.gz"
-      sha256 "8f81b19a4f8c5cb07bcbaad5f22a0345637f4888958998083604d2cc6a79b250"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.2.2/statlite_0.2.2_darwin_arm64.tar.gz"
+      sha256 "8f0a45902efc32fe954883e92e406ae30648bffd203409439391a6e0fe34d6be"
     end
 
     on_intel do
-      url "https://github.com/PVRLabs/statlite/releases/download/v#{version}/statlite_#{version}_darwin_amd64.tar.gz"
-      sha256 "a7bc10d96650053f0c0d9ae1f25eb429307d281f26371e96ce15505d1501c0f6"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.2.2/statlite_0.2.2_darwin_amd64.tar.gz"
+      sha256 "c94f7f127709f6dda8d0ce436204f4f1fa63a931095fd96bddeebe4442a86b27"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/PVRLabs/statlite/releases/download/v#{version}/statlite_#{version}_linux_arm64.tar.gz"
-      sha256 "40a1c7ad77ba4edb653a10f1153971f89023703710b954ff24caa5df608d5a5a"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.2.2/statlite_0.2.2_linux_arm64.tar.gz"
+      sha256 "7c0d24955c824576470a4b5ebc7d1f86f7d7784db7803d8bf84db43f65a73598"
     end
 
     on_intel do
-      url "https://github.com/PVRLabs/statlite/releases/download/v#{version}/statlite_#{version}_linux_amd64.tar.gz"
-      sha256 "68e36ddb858129ff0af5a78a5ba6ed944c04b1cf3652a9a3e7579113cc313d34"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.2.2/statlite_0.2.2_linux_amd64.tar.gz"
+      sha256 "ed33a57447b0f0dd8ca423917e00838c9ec7e0a2aaf744f92e544a7d0902d04b"
     end
   end
 
