@@ -1,7 +1,6 @@
 class Statlite < Formula
   desc "Tiny self-hosted metrics dashboard for small servers"
   homepage "https://github.com/PVRLabs/statlite"
-  version "0.3.0"
   license "MIT"
 
   on_macos do
