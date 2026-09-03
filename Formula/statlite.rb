@@ -5,25 +5,25 @@ class Statlite < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/PVRLabs/statlite/releases/download/v0.3.0/statlite_0.3.0_darwin_arm64.tar.gz"
-      sha256 "e09bfe8936db70be5394a26d0547ffadd332bda4a074fca9048c557ece02aaee"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.4.0/statlite_0.4.0_darwin_arm64.tar.gz"
+      sha256 "cd037e62e9bf254ac7e4ea4b4053140d52f2b547b171c6387eb6fb986475a52a"
     end
 
     on_intel do
-      url "https://github.com/PVRLabs/statlite/releases/download/v0.3.0/statlite_0.3.0_darwin_amd64.tar.gz"
-      sha256 "a436596cc98e989ba547d5de05876ec3d38a62a7a58183cd4dee7719476317f0"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.4.0/statlite_0.4.0_darwin_amd64.tar.gz"
+      sha256 "b8aae3bedd8876cad4874e9868cbddc001dcba31785c1fa419113a399677fa7b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/PVRLabs/statlite/releases/download/v0.3.0/statlite_0.3.0_linux_arm64.tar.gz"
-      sha256 "b0d262859118b610a6821442b3679907a6c6ef959fb65e3353e1b3bbde5cf968"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.4.0/statlite_0.4.0_linux_arm64.tar.gz"
+      sha256 "2177fd8ec95402f99c28c4505d3f9dde5554bad7257a1743b3d462a2221f85ee"
     end
 
     on_intel do
-      url "https://github.com/PVRLabs/statlite/releases/download/v0.3.0/statlite_0.3.0_linux_amd64.tar.gz"
-      sha256 "b0c1bfeef082d31ecee0fa175d0314eb46a746ba1592aecf9027e827d6544ab9"
+      url "https://github.com/PVRLabs/statlite/releases/download/v0.4.0/statlite_0.4.0_linux_amd64.tar.gz"
+      sha256 "1b53d21af92a9f7a338873b67125ac9d59b7df09a0614125540d317e4a88b632"
     end
   end
 
