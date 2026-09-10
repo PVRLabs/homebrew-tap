@@ -1,30 +1,30 @@
 class Badger < Formula
   desc "Local context bridge for bringing codebase context to an AI chat"
   homepage "https://github.com/PVRLabs/aibadger"
-  version "0.5.3"
+  version "0.5.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/PVRLabs/aibadger/releases/download/v#{version}/badger_#{version}_darwin_arm64.tar.gz"
-      sha256 "c522278dc4eba4260ab5765c7fc9685de78bf361756864b3e3b05bc0df2c000c"
+      sha256 "bbab4438748cf37441dfcb17633dc758c2c85f8ad09487a2fa42b64f2a63de66"
     end
 
     on_intel do
       url "https://github.com/PVRLabs/aibadger/releases/download/v#{version}/badger_#{version}_darwin_amd64.tar.gz"
-      sha256 "174a5cf28b2ccba2cb678ec97dca08fbd68ac4f1d3b57266f433ba80e1597997"
+      sha256 "d4167b02235c35275674cc28bdd6600deb4e35243624ca22d7b0b58944ab4758"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/PVRLabs/aibadger/releases/download/v#{version}/badger_#{version}_linux_arm64.tar.gz"
-      sha256 "39d4b4e1855168726985360233ca15a623cffaa4f6c145918f22d53af5d76c40"
+      sha256 "4a330c9d66bb1fdf075482a90ea2cfcae981c580cf2a4692768d3236499572be"
     end
 
     on_intel do
       url "https://github.com/PVRLabs/aibadger/releases/download/v#{version}/badger_#{version}_linux_amd64.tar.gz"
-      sha256 "3ea4a0671f8f6b53d184bf3e3cbe3b05c721625b66d4c083ca3d7ec37404c2d1"
+      sha256 "e1d3bc79aad52726fe63a19c7261c6ced3cea6d94533bb4a77e2994c0cccfec5"
     end
   end
 
