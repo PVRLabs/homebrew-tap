@@ -8,7 +8,7 @@ cask "leanbar" do
   homepage "https://github.com/PVRLabs/leanbar"
 
   depends_on formula: "python"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "LeanBar.app"
 
