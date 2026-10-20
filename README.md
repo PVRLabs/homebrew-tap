@@ -16,6 +16,15 @@ Install StatLite:
 brew install pvrlabs/tap/statlite
 ```
 
+Install LeanBar (macOS menu-bar app):
+
+```bash
+brew install --cask pvrlabs/tap/leanbar
+```
+
+See [LeanBar installation](https://github.com/PVRLabs/leanbar/blob/main/docs/install.md)
+for script configuration and first-launch approval steps.
+
 ## Formula Ownership
 
 Keep project formulas in `Formula/` in this repository. Do not create new one-project taps for future PVRLabs tools unless there is a concrete distribution reason.
