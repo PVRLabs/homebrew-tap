@@ -1,6 +1,6 @@
 cask "leanbar" do
-  version "0.1.0"
-  sha256 "fa0e1962638ef8ed60d61cd5ea83013b3458de65978389c6f94bf6ba51189890"
+  version "0.1.1"
+  sha256 "337fa7e857c6f9dd16130707775b9b94b9e16763685c95e22e1096aada2f394b"
 
   url "https://github.com/PVRLabs/leanbar/releases/download/v#{version}/LeanBar-#{version}-universal.zip"
   name "LeanBar"
